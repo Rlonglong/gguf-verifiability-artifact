@@ -1,0 +1,6 @@
+model,eps,ppl
+baseline,0,10.5663
+scale_tamper,0.02,5387581.4954
+scale_tamper,0.01,10.6697
+scale_tamper,0.005,10.5967
+scale_tamper,0.002,10.5849

@@ -1,0 +1,57 @@
+{
+ "probe": "Two plus two equals",
+ "T0": " four",
+ "tau": 0.1,
+ "embed_type": "Q6_K",
+ "n_model_weights_proxy": 233373696,
+ "sigma": 0.026092756143860172,
+ "pooled_threshold": 0.0019,
+ "max_threshold": 2.36,
+ "confirm": {
+  "rank": 10,
+  "flipped_to_target": false,
+  "flipped_off_T0": false,
+  "edits": 463,
+  "max_stat": 0.09343427279628148,
+  "flips_hidden": 463,
+  "flips_above_tau": 0
+ },
+ "sweep": [
+  {
+   "target_rank_token": " five",
+   "margin": 1.3453125000000001,
+   "edits": 44,
+   "reachable_within_row": true,
+   "edit_frac_of_model": 1.885388145885987e-07,
+   "flips_above_tau": 0,
+   "flips_hidden": 44,
+   "max_stat": 0.08510090313390457,
+   "pooled_tail_contrib": 1.885388145885987e-07,
+   "per_tensor_tail_token_embd": 0.0
+  },
+  {
+   "target_rank_token": " __",
+   "margin": 4.05234375,
+   "edits": 463,
+   "reachable_within_row": true,
+   "edit_frac_of_model": 1.9839425262391183e-06,
+   "flips_above_tau": 0,
+   "flips_hidden": 463,
+   "max_stat": 0.09343427279628148,
+   "pooled_tail_contrib": 1.9839425262391183e-06,
+   "per_tensor_tail_token_embd": 0.0
+  },
+  {
+   "target_rank_token": " .\n",
+   "margin": 6.9234375,
+   "edits": 1536,
+   "reachable_within_row": false,
+   "edit_frac_of_model": 6.581718618365627e-06,
+   "flips_above_tau": 0,
+   "flips_hidden": 1536,
+   "max_stat": 0.08800280865770878,
+   "pooled_tail_contrib": 6.581718618365627e-06,
+   "per_tensor_tail_token_embd": 0.0
+  }
+ ]
+}

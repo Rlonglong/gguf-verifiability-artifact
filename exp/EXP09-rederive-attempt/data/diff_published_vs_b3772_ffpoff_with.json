@@ -1,0 +1,185 @@
+{
+  "file_a": "$WORK/exp09/bartowski-Q4_K_M.gguf",
+  "file_b": "$WORK/b3772/out-b3772/q4km-ffpoff-with.gguf",
+  "metadata_region_identical": false,
+  "data_offset_a": 5951232,
+  "data_offset_b": 5951232,
+  "n_tensors_common": 338,
+  "only_a": [],
+  "only_b": [],
+  "n_tensors_differing": 196,
+  "total_data_bytes": 980097536,
+  "total_diff_bytes": 2330051,
+  "beta_byte": 0.0023773664501897085,
+  "per_type": {
+    "Q6_K": {
+      "n": 29,
+      "n_diff": 28,
+      "total_bytes": 354009600,
+      "diff_bytes": 25007,
+      "beta": 7.0639327295079e-05
+    },
+    "F32": {
+      "n": 141,
+      "n_diff": 0,
+      "total_bytes": 579584,
+      "diff_bytes": 0,
+      "beta": 0.0
+    },
+    "Q4_K": {
+      "n": 168,
+      "n_diff": 168,
+      "total_bytes": 625508352,
+      "diff_bytes": 2305044,
+      "beta": 0.0036850730971534655
+    }
+  },
+  "region_distribution": {
+    "superscale": {
+      "diff_bytes": 144288,
+      "total_bytes": 12059136,
+      "beta": 0.011965036301108138,
+      "share_of_all_diffs": 0.06192482482143095
+    },
+    "min": {
+      "diff_bytes": 142362,
+      "total_bytes": 8687616,
+      "beta": 0.01638677400106082,
+      "share_of_all_diffs": 0.06109823347214288
+    },
+    "blockscales": {
+      "diff_bytes": 539089,
+      "total_bytes": 79097856,
+      "beta": 0.006815469182881518,
+      "share_of_all_diffs": 0.2313636053459774
+    },
+    "nibble": {
+      "diff_bytes": 1504312,
+      "total_bytes": 879673344,
+      "beta": 0.0017100802363291799,
+      "share_of_all_diffs": 0.6456133363604487
+    }
+  },
+  "top_diff_tensors": [
+    {
+      "name": "blk.2.ffn_down.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 85873
+    },
+    {
+      "name": "blk.26.ffn_down.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 42878
+    },
+    {
+      "name": "blk.2.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 33717
+    },
+    {
+      "name": "blk.1.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 33633
+    },
+    {
+      "name": "blk.3.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 32018
+    },
+    {
+      "name": "blk.27.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 31752
+    },
+    {
+      "name": "blk.19.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 31149
+    },
+    {
+      "name": "blk.22.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 31013
+    },
+    {
+      "name": "blk.21.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 30910
+    },
+    {
+      "name": "blk.4.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 30647
+    },
+    {
+      "name": "blk.27.ffn_gate.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 30540
+    },
+    {
+      "name": "blk.26.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 30434
+    },
+    {
+      "name": "blk.16.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 29985
+    },
+    {
+      "name": "blk.19.ffn_gate.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 29943
+    },
+    {
+      "name": "blk.5.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 29434
+    },
+    {
+      "name": "blk.20.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 29209
+    },
+    {
+      "name": "blk.22.ffn_gate.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 29102
+    },
+    {
+      "name": "blk.22.ffn_down.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 29071
+    },
+    {
+      "name": "blk.15.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 28835
+    },
+    {
+      "name": "blk.25.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 28754
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "ref": "mac-default-imatrix.gguf",
+ "cand": "mac-ffpoff-imatrix.gguf",
+ "ref_meta": {
+  "imatrix.chunk_count": "802",
+  "imatrix.chunk_size": "512",
+  "imatrix.datasets": "['exp16/calibration_datav5.txt']"
+ },
+ "cand_meta": {
+  "imatrix.chunk_count": "802",
+  "imatrix.chunk_size": "512",
+  "imatrix.datasets": "['exp16/calibration_datav5.txt']"
+ },
+ "n_entries_ref": 186,
+ "n_entries_cand": 186,
+ "only_in_ref": [],
+ "only_in_cand": [],
+ "n_common": 186,
+ "n_counts_equal": 186,
+ "n_in_sum2_bitexact": 186,
+ "rel_diff_in_sum2": {
+  "median_of_medians": 0.0,
+  "max_of_max": 0.0
+ },
+ "rel_diff_mean_importance_median": 0.0
+}

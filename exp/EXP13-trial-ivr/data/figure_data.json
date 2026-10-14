@@ -1,0 +1,374 @@
+{
+ "cells": {
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|armclang|default|0": {
+   "match": 140,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|armclang|default|0": {
+   "match": 298,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|armclang|default|1": {
+   "match": 193,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|armclang|default|1": {
+   "match": 334,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|armclang|ffpoff|0": {
+   "match": 260,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|armclang|ffpoff|0": {
+   "match": 298,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|armclang|ffpoff|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|armclang|ffpoff|1": {
+   "match": 334,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|armclang|default|0": {
+   "match": 140,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|armclang|default|0": {
+   "match": 298,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|armclang|default|1": {
+   "match": 193,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|armclang|default|1": {
+   "match": 334,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|armclang|ffpoff|0": {
+   "match": 260,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|armclang|ffpoff|0": {
+   "match": 298,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|armclang|ffpoff|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|armclang|ffpoff|1": {
+   "match": 334,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|armclang|default|0": {
+   "match": 184,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|armclang|default|0": {
+   "match": 393,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|armclang|default|1": {
+   "match": 252,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|armclang|default|1": {
+   "match": 441,
+   "total": 441,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|armclang|ffpoff|0": {
+   "match": 341,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|armclang|ffpoff|0": {
+   "match": 393,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|armclang|ffpoff|1": {
+   "match": 441,
+   "total": 441,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|armclang|ffpoff|1": {
+   "match": 441,
+   "total": 441,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q4_K_M|armclang|default|0": {
+   "match": 141,
+   "total": 339,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q8_0|armclang|default|0": {
+   "match": 339,
+   "total": 339,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q4_K_M|armclang|ffpoff|0": {
+   "match": 141,
+   "total": 339,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q8_0|armclang|ffpoff|0": {
+   "match": 339,
+   "total": 339,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q4_K_M|armgcc15|default|0": {
+   "match": 141,
+   "total": 339,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q8_0|armgcc15|default|0": {
+   "match": 339,
+   "total": 339,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q4_K_M|armgcc15|ffpoff|0": {
+   "match": 141,
+   "total": 339,
+   "bit_exact": false,
+   "arch": "arm64"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q8_0|armgcc15|ffpoff|0": {
+   "match": 339,
+   "total": 339,
+   "bit_exact": true,
+   "arch": "arm64"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|x86gcc|default|0": {
+   "match": 260,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|x86gcc|default|0": {
+   "match": 299,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|x86gcc|default|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|x86gcc|default|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|x86gcc|ffpoff|0": {
+   "match": 260,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|x86gcc|ffpoff|0": {
+   "match": 299,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M|x86gcc|ffpoff|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0|x86gcc|ffpoff|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|x86gcc|default|0": {
+   "match": 260,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|x86gcc|default|0": {
+   "match": 299,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|x86gcc|default|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|x86gcc|default|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|x86gcc|ffpoff|0": {
+   "match": 260,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|x86gcc|ffpoff|0": {
+   "match": 299,
+   "total": 335,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M|x86gcc|ffpoff|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0|x86gcc|ffpoff|1": {
+   "match": 335,
+   "total": 335,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|x86gcc|default|0": {
+   "match": 341,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|x86gcc|default|0": {
+   "match": 393,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|x86gcc|default|1": {
+   "match": 441,
+   "total": 441,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|x86gcc|default|1": {
+   "match": 441,
+   "total": 441,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|x86gcc|ffpoff|0": {
+   "match": 341,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|x86gcc|ffpoff|0": {
+   "match": 393,
+   "total": 441,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M|x86gcc|ffpoff|1": {
+   "match": 441,
+   "total": 441,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0|x86gcc|ffpoff|1": {
+   "match": 441,
+   "total": 441,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q4_K_M|x86gcc|default|0": {
+   "match": 170,
+   "total": 339,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q8_0|x86gcc|default|0": {
+   "match": 339,
+   "total": 339,
+   "bit_exact": true,
+   "arch": "x86"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q4_K_M|x86gcc|ffpoff|0": {
+   "match": 141,
+   "total": 339,
+   "bit_exact": false,
+   "arch": "x86"
+  },
+  "Qwen2.5-7B-Instruct-GGUF|Q8_0|x86gcc|ffpoff|0": {
+   "match": 339,
+   "total": 339,
+   "bit_exact": true,
+   "arch": "x86"
+  }
+ },
+ "repro": {
+  "Qwen2.5-7B-Instruct-GGUF|Q4_K_M": null,
+  "Qwen2.5-7B-Instruct-GGUF|Q8_0": "card only (release+imatrix+preset)",
+  "Qwen_Qwen3.5-0.8B-GGUF|Q4_K_M": "+recipe",
+  "Qwen_Qwen3.5-0.8B-GGUF|Q8_0": "+recipe",
+  "Qwen_Qwen3.5-2B-GGUF|Q4_K_M": "+recipe",
+  "Qwen_Qwen3.5-2B-GGUF|Q8_0": "+recipe",
+  "Qwen_Qwen3.5-4B-GGUF|Q4_K_M": "+recipe",
+  "Qwen_Qwen3.5-4B-GGUF|Q8_0": "+recipe"
+ }
+}

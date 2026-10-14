@@ -1,0 +1,5 @@
+{"single_nibble_flip":{"weights_changed":1,"delta_over_std":0.227,"tensor_std":0.05582},
+ "over_2000_flips_delta_over_std":{"median":0.2774,"P90":0.3800,"P99":0.4580},
+ "synthetic_qcb_EXP05_delta_over_std_median":0.268,
+ "emulator_fp16_boxwidth_over_std":{"median":0.0324,"P90":0.1054,"P99":0.1667},
+ "note":"direct nibble-flip confirms EXP05 synthetic QCB step; emulator box-width is fp16-side wiggle room (different quantity), not the dequantized footprint"}

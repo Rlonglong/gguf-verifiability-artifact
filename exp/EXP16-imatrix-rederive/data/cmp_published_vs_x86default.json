@@ -1,0 +1,26 @@
+{
+ "ref": "Qwen_Qwen3.5-0.8B-imatrix.gguf",
+ "cand": "x86-default-imatrix.gguf",
+ "ref_meta": {
+  "imatrix.chunk_count": "802",
+  "imatrix.chunk_size": "512",
+  "imatrix.datasets": "['/training_dir/calibration_datav5.txt']"
+ },
+ "cand_meta": {
+  "imatrix.chunk_count": "802",
+  "imatrix.chunk_size": "512",
+  "imatrix.datasets": "['$WORK/calibration_datav5.txt']"
+ },
+ "n_entries_ref": 186,
+ "n_entries_cand": 186,
+ "only_in_ref": [],
+ "only_in_cand": [],
+ "n_common": 186,
+ "n_counts_equal": 186,
+ "n_in_sum2_bitexact": 0,
+ "rel_diff_in_sum2": {
+  "median_of_medians": 5.4183891143727624e-05,
+  "max_of_max": 0.027857224122142674
+ },
+ "rel_diff_mean_importance_median": 5.419791443669052e-05
+}

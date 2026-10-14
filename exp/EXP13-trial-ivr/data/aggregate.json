@@ -1,0 +1,1042 @@
+{
+ "n_attempts": 60,
+ "n_bit_exact": 23,
+ "rederivation_rate": 0.38333333333333336,
+ "rate_wilson95": [
+  0.2708808958488824,
+  0.5098263545959686
+ ],
+ "n_environments": 10,
+ "environments": [
+  "armclang-default",
+  "armclang-default-recipe",
+  "armclang-ffpoff",
+  "armclang-ffpoff-recipe",
+  "armgcc15-default",
+  "armgcc15-ffpoff",
+  "x86gcc-default",
+  "x86gcc-default-recipe",
+  "x86gcc-ffpoff",
+  "x86gcc-ffpoff-recipe"
+ ],
+ "per_target": {
+  "Qwen_Qwen3.5-0.8B-GGUF/Q4_K_M": {
+   "n_env": 8,
+   "any_bit_exact": true,
+   "best_sha_match": 335,
+   "n_tensors": 335
+  },
+  "Qwen_Qwen3.5-0.8B-GGUF/Q8_0": {
+   "n_env": 8,
+   "any_bit_exact": true,
+   "best_sha_match": 335,
+   "n_tensors": 335
+  },
+  "Qwen_Qwen3.5-2B-GGUF/Q4_K_M": {
+   "n_env": 8,
+   "any_bit_exact": true,
+   "best_sha_match": 335,
+   "n_tensors": 335
+  },
+  "Qwen_Qwen3.5-2B-GGUF/Q8_0": {
+   "n_env": 8,
+   "any_bit_exact": true,
+   "best_sha_match": 335,
+   "n_tensors": 335
+  },
+  "Qwen_Qwen3.5-4B-GGUF/Q4_K_M": {
+   "n_env": 8,
+   "any_bit_exact": true,
+   "best_sha_match": 441,
+   "n_tensors": 441
+  },
+  "Qwen_Qwen3.5-4B-GGUF/Q8_0": {
+   "n_env": 8,
+   "any_bit_exact": true,
+   "best_sha_match": 441,
+   "n_tensors": 441
+  },
+  "Qwen2.5-7B-Instruct-GGUF/Q4_K_M": {
+   "n_env": 6,
+   "any_bit_exact": false,
+   "best_sha_match": 170,
+   "n_tensors": 339
+  },
+  "Qwen2.5-7B-Instruct-GGUF/Q8_0": {
+   "n_env": 6,
+   "any_bit_exact": true,
+   "best_sha_match": 339,
+   "n_tensors": 339
+  }
+ },
+ "results": [
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 140,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_gate.weight",
+   "mismatch_types": {
+    "12": 95,
+    "14": 35,
+    "0": 36,
+    "8": 17,
+    "13": 12
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 298,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1,
+    "0": 36
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 193,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_gate.weight",
+   "mismatch_types": {
+    "12": 95,
+    "14": 35,
+    "13": 12
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 334,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 260,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36,
+    "8": 17,
+    "14": 10,
+    "13": 12
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 298,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1,
+    "0": 36
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 334,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 140,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_gate.weight",
+   "mismatch_types": {
+    "12": 95,
+    "14": 35,
+    "0": 36,
+    "8": 17,
+    "13": 12
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 298,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1,
+    "0": 36
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 193,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_gate.weight",
+   "mismatch_types": {
+    "12": 95,
+    "14": 35,
+    "13": 12
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 334,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 260,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36,
+    "8": 17,
+    "14": 10,
+    "13": 12
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 298,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1,
+    "0": 36
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 334,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_qkv.weight",
+   "mismatch_types": {
+    "8": 1
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 184,
+   "type_match": 341,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_gate.weight",
+   "mismatch_types": {
+    "12": 124,
+    "14": 49,
+    "0": 48,
+    "8": 20,
+    "13": 16
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 393,
+   "type_match": 393,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 48
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 252,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_gate.weight",
+   "mismatch_types": {
+    "12": 124,
+    "14": 49,
+    "13": 16
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-default-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 441,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 341,
+   "type_match": 341,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 48,
+    "8": 20,
+    "14": 16,
+    "13": 16
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 393,
+   "type_match": 393,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 48
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 441,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "armclang-ffpoff-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 441,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armclang-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 339,
+   "sha_match": 141,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_k.weight",
+   "mismatch_types": {
+    "12": 169,
+    "14": 29
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armclang-default",
+   "quant": "Q8_0",
+   "n_tensors": 339,
+   "sha_match": 339,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armclang-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 339,
+   "sha_match": 141,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_k.weight",
+   "mismatch_types": {
+    "12": 169,
+    "14": 29
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armclang-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 339,
+   "sha_match": 339,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armgcc15-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 339,
+   "sha_match": 141,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_k.weight",
+   "mismatch_types": {
+    "12": 169,
+    "14": 29
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armgcc15-default",
+   "quant": "Q8_0",
+   "n_tensors": 339,
+   "sha_match": 339,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armgcc15-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 339,
+   "sha_match": 141,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_k.weight",
+   "mismatch_types": {
+    "12": 169,
+    "14": 29
+   }
+  },
+  {
+   "host": "mac-arm64",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "armgcc15-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 339,
+   "sha_match": 339,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 260,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36,
+    "8": 17,
+    "14": 10,
+    "13": 12
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 299,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 260,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36,
+    "8": 17,
+    "14": 10,
+    "13": 12
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 299,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-0.8B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 260,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36,
+    "8": 17,
+    "14": 10,
+    "13": 12
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 299,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 260,
+   "type_match": 260,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36,
+    "8": 17,
+    "14": 10,
+    "13": 12
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 299,
+   "type_match": 299,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 36
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-2B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 335,
+   "sha_match": 335,
+   "type_match": 335,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 341,
+   "type_match": 341,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 48,
+    "8": 20,
+    "14": 16,
+    "13": 16
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 393,
+   "type_match": 393,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 48
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 441,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-default-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 441,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 341,
+   "type_match": 341,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 48,
+    "8": 20,
+    "14": 16,
+    "13": 16
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 393,
+   "type_match": 393,
+   "recipe_match": false,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.ssm_alpha.weight",
+   "mismatch_types": {
+    "0": 48
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff-recipe",
+   "quant": "Q4_K_M",
+   "n_tensors": 441,
+   "sha_match": 441,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen_Qwen3.5-4B-GGUF",
+   "release": "b9222",
+   "env": "x86gcc-ffpoff-recipe",
+   "quant": "Q8_0",
+   "n_tensors": 441,
+   "sha_match": 441,
+   "type_match": 441,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "x86gcc-default",
+   "quant": "Q4_K_M",
+   "n_tensors": 339,
+   "sha_match": 170,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_k.weight",
+   "mismatch_types": {
+    "12": 169
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "x86gcc-default",
+   "quant": "Q8_0",
+   "n_tensors": 339,
+   "sha_match": 339,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q4_K_M",
+   "n_tensors": 339,
+   "sha_match": 141,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": false,
+   "first_mismatch": "blk.0.attn_k.weight",
+   "mismatch_types": {
+    "12": 169,
+    "14": 29
+   }
+  },
+  {
+   "host": "x86-gcc",
+   "target": "Qwen2.5-7B-Instruct-GGUF",
+   "release": "b3772",
+   "env": "x86gcc-ffpoff",
+   "quant": "Q8_0",
+   "n_tensors": 339,
+   "sha_match": 339,
+   "type_match": 339,
+   "recipe_match": true,
+   "bit_exact": true,
+   "first_mismatch": null,
+   "mismatch_types": {}
+  }
+ ]
+}

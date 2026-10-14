@@ -1,0 +1,6 @@
+source,hf_revision,converter_tag,run,file_sha16,tensor_data_sha16,whole_file_matches_published
+Qwen/Qwen2.5-1.5B-Instruct (safetensors + model card),989aa7980e4cf806f80c7fef2b1adb7bc71aa306,b3772,1,b6eaec3509f1d037,e2333e678acf3cfc,YES
+Qwen/Qwen2.5-1.5B-Instruct (safetensors + model card),989aa7980e4cf806f80c7fef2b1adb7bc71aa306,b3772,2,b6eaec3509f1d037,e2333e678acf3cfc,YES
+Qwen/Qwen2.5-1.5B-Instruct (safetensors + model card),989aa7980e4cf806f80c7fef2b1adb7bc71aa306,b10448,1,390b782152e75c7f,e2333e678acf3cfc,NO (metadata only)
+Qwen/Qwen2.5-1.5B-Instruct (safetensors + model card),989aa7980e4cf806f80c7fef2b1adb7bc71aa306,b10448,2,390b782152e75c7f,e2333e678acf3cfc,NO (metadata only)
+published: bartowski/Qwen2.5-1.5B-Instruct-GGUF Qwen2.5-1.5B-Instruct-f16.gguf,-,b3772 (card),-,b6eaec3509f1d037,e2333e678acf3cfc,-

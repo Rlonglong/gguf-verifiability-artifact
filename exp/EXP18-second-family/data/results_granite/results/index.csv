@@ -1,0 +1,11 @@
+host,target,release,env,quant,shas_json
+x86-gcc,granite-4.2-3b-GGUF,published,published,Q4_K_M,granite-4.2-3b-GGUF/published/Q4_K_M.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,published,published,Q8_0,granite-4.2-3b-GGUF/published/Q8_0.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-default,Q4_K_M,granite-4.2-3b-GGUF/x86gcc-default/Q4_K_M.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-default,Q8_0,granite-4.2-3b-GGUF/x86gcc-default/Q8_0.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-default-recipe,Q4_K_M,granite-4.2-3b-GGUF/x86gcc-default/Q4_K_M.recipe.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-default-recipe,Q8_0,granite-4.2-3b-GGUF/x86gcc-default/Q8_0.recipe.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-ffpoff,Q4_K_M,granite-4.2-3b-GGUF/x86gcc-ffpoff/Q4_K_M.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-ffpoff,Q8_0,granite-4.2-3b-GGUF/x86gcc-ffpoff/Q8_0.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-ffpoff-recipe,Q4_K_M,granite-4.2-3b-GGUF/x86gcc-ffpoff/Q4_K_M.recipe.gguf.shas.json
+x86-gcc,granite-4.2-3b-GGUF,b10603,x86gcc-ffpoff-recipe,Q8_0,granite-4.2-3b-GGUF/x86gcc-ffpoff/Q8_0.recipe.gguf.shas.json

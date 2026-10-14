@@ -1,0 +1,104 @@
+{
+ "probe": "The opposite of hot is",
+ "T0": " cold",
+ "tau": 0.1,
+ "embed_type": "Q6_K",
+ "n_model_weights_proxy": 233373696,
+ "sigma": 0.026092756143860172,
+ "pooled_threshold": 0.0019,
+ "max_threshold": 2.36,
+ "confirm": {
+  "rank": 3,
+  "stealth_subtau_only": true,
+  "reachable": true,
+  "flipped_to_target": true,
+  "flipped_off_T0": true,
+  "edits": 147,
+  "max_stat": 0.09795236478190751,
+  "flips_hidden": 147,
+  "flips_above_tau": 0
+ },
+ "sweep": [
+  {
+   "rank": 1,
+   "unconstrained": {
+    "target_rank_token": " __",
+    "margin": 1.6078125,
+    "stealth": false,
+    "reachable": true,
+    "edits": 99,
+    "edit_frac_of_model": 4.242123328243471e-07,
+    "flips_above_tau": 0,
+    "flips_hidden": 99,
+    "max_stat": 0.09824475990065948,
+    "pooled_tail_contrib": 0.0
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": " __",
+    "margin": 1.6078125,
+    "stealth": true,
+    "reachable": true,
+    "edits": 99,
+    "edit_frac_of_model": 4.242123328243471e-07,
+    "flips_above_tau": 0,
+    "flips_hidden": 99,
+    "max_stat": 0.09824475990065948,
+    "pooled_tail_contrib": 0.0
+   }
+  },
+  {
+   "rank": 3,
+   "unconstrained": {
+    "target_rank_token": " ____",
+    "margin": 1.771875,
+    "stealth": false,
+    "reachable": true,
+    "edits": 147,
+    "edit_frac_of_model": 6.29891039648273e-07,
+    "flips_above_tau": 0,
+    "flips_hidden": 147,
+    "max_stat": 0.09795236478190751,
+    "pooled_tail_contrib": 0.0
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": " ____",
+    "margin": 1.771875,
+    "stealth": true,
+    "reachable": true,
+    "edits": 147,
+    "edit_frac_of_model": 6.29891039648273e-07,
+    "flips_above_tau": 0,
+    "flips_hidden": 147,
+    "max_stat": 0.09795236478190751,
+    "pooled_tail_contrib": 0.0
+   }
+  },
+  {
+   "rank": 10,
+   "unconstrained": {
+    "target_rank_token": " hot",
+    "margin": 4.28203125,
+    "stealth": false,
+    "reachable": true,
+    "edits": 938,
+    "edit_frac_of_model": 4.019304729184218e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 938,
+    "max_stat": 0.09941434037566732,
+    "pooled_tail_contrib": 0.0
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": " hot",
+    "margin": 4.28203125,
+    "stealth": true,
+    "reachable": true,
+    "edits": 938,
+    "edit_frac_of_model": 4.019304729184218e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 938,
+    "max_stat": 0.09941434037566732,
+    "pooled_tail_contrib": 0.0
+   }
+  }
+ ]
+}

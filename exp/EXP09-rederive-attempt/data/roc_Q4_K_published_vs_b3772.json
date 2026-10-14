@@ -1,0 +1,44 @@
+{
+  "type": "Q4_K",
+  "tau": 0.1,
+  "n_tensors": 168,
+  "natural_tailfrac_median": 0.0013098580496651788,
+  "by_flip": {
+    "0.0005": {
+      "auc": 0.0,
+      "attack_tailfrac_median": 0.0004977756076388889,
+      "tpr_at_fpr1pct": 0,
+      "tpr_at_fpr5pct": 0
+    },
+    "0.001": {
+      "auc": 0.005810657596371882,
+      "attack_tailfrac_median": 0.0009961930532304067,
+      "tpr_at_fpr1pct": 0,
+      "tpr_at_fpr5pct": 0
+    },
+    "0.002": {
+      "auc": 0.9905045351473923,
+      "attack_tailfrac_median": 0.0019910237145802333,
+      "tpr_at_fpr1pct": 0.5535714285714286,
+      "tpr_at_fpr5pct": 0.9940476190476191
+    },
+    "0.005": {
+      "auc": 1.0,
+      "attack_tailfrac_median": 0.004979088192894345,
+      "tpr_at_fpr1pct": 1.0,
+      "tpr_at_fpr5pct": 1.0
+    },
+    "0.01": {
+      "auc": 1.0,
+      "attack_tailfrac_median": 0.009954652332124257,
+      "tpr_at_fpr1pct": 1.0,
+      "tpr_at_fpr5pct": 1.0
+    },
+    "0.02": {
+      "auc": 1.0,
+      "attack_tailfrac_median": 0.01991548084077381,
+      "tpr_at_fpr1pct": 1.0,
+      "tpr_at_fpr5pct": 1.0
+    }
+  }
+}

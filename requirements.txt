@@ -1,0 +1,3 @@
+numpy
+matplotlib
+gguf   # llama.cpp's gguf-py; alternatively set GGUF_PY to a llama.cpp checkout's gguf-py

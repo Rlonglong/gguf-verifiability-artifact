@@ -1,0 +1,50 @@
+{
+  "type": "Q6_K",
+  "tau": 0.1,
+  "n_tensors": 197,
+  "natural_tailfrac_median": 1.0172526041666667e-06,
+  "by_flip": {
+    "2e-05": {
+      "auc": 0.5677291349944601,
+      "attack_tailfrac_median": 1.2352353050595239e-06,
+      "tpr_at_fpr1pct": 0,
+      "tpr_at_fpr5pct": 0
+    },
+    "5e-05": {
+      "auc": 0.7994537349583859,
+      "attack_tailfrac_median": 2.833775111607143e-06,
+      "tpr_at_fpr1pct": 0.005076142131979695,
+      "tpr_at_fpr5pct": 0.04568527918781726
+    },
+    "0.0001": {
+      "auc": 0.9302481383184313,
+      "attack_tailfrac_median": 6.394159226190476e-06,
+      "tpr_at_fpr1pct": 0.03553299492385787,
+      "tpr_at_fpr5pct": 0.3553299492385787
+    },
+    "0.0002": {
+      "auc": 0.9770929423587312,
+      "attack_tailfrac_median": 1.2570335751488095e-05,
+      "tpr_at_fpr1pct": 0.3147208121827411,
+      "tpr_at_fpr5pct": 0.9289340101522843
+    },
+    "0.0005": {
+      "auc": 0.9994073539642866,
+      "attack_tailfrac_median": 3.226143973214286e-05,
+      "tpr_at_fpr1pct": 0.9898477157360406,
+      "tpr_at_fpr5pct": 1.0
+    },
+    "0.001": {
+      "auc": 0.9999742327810559,
+      "attack_tailfrac_median": 6.612141927083333e-05,
+      "tpr_at_fpr1pct": 1.0,
+      "tpr_at_fpr5pct": 1.0
+    },
+    "0.005": {
+      "auc": 1.0,
+      "attack_tailfrac_median": 0.00032806396484375,
+      "tpr_at_fpr1pct": 1.0,
+      "tpr_at_fpr5pct": 1.0
+    }
+  }
+}

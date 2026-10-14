@@ -1,0 +1,185 @@
+{
+  "file_a": "$WORK/canon/mac_default_Q4_K_M.gguf",
+  "file_b": "$WORK/canon/linux-x86_default_Q4_K_M.gguf",
+  "metadata_region_identical": true,
+  "data_offset_a": 5950976,
+  "data_offset_b": 5950976,
+  "n_tensors_common": 338,
+  "only_a": [],
+  "only_b": [],
+  "n_tensors_differing": 197,
+  "total_data_bytes": 980097536,
+  "total_diff_bytes": 407964,
+  "beta_byte": 0.0004162483681624111,
+  "per_type": {
+    "F32": {
+      "n": 141,
+      "n_diff": 0,
+      "total_bytes": 579584,
+      "diff_bytes": 0,
+      "beta": 0.0
+    },
+    "Q6_K": {
+      "n": 29,
+      "n_diff": 29,
+      "total_bytes": 354009600,
+      "diff_bytes": 117048,
+      "beta": 0.0003306351014209784
+    },
+    "Q4_K": {
+      "n": 168,
+      "n_diff": 168,
+      "total_bytes": 625508352,
+      "diff_bytes": 290916,
+      "beta": 0.00046508731509311646
+    }
+  },
+  "region_distribution": {
+    "superscale": {
+      "diff_bytes": 6983,
+      "total_bytes": 12059136,
+      "beta": 0.0005790630439859041,
+      "share_of_all_diffs": 0.01711670637605279
+    },
+    "min": {
+      "diff_bytes": 5976,
+      "total_bytes": 8687616,
+      "beta": 0.0006878757072135785,
+      "share_of_all_diffs": 0.014648351325116922
+    },
+    "blockscales": {
+      "diff_bytes": 96273,
+      "total_bytes": 79097856,
+      "beta": 0.001217137920906478,
+      "share_of_all_diffs": 0.2359840574168309
+    },
+    "nibble": {
+      "diff_bytes": 298732,
+      "total_bytes": 879673344,
+      "beta": 0.00033959423919977276,
+      "share_of_all_diffs": 0.7322508848819994
+    }
+  },
+  "top_diff_tensors": [
+    {
+      "name": "token_embd.weight",
+      "type": "Q6_K",
+      "n_bytes": 191439360,
+      "diff_bytes": 61483
+    },
+    {
+      "name": "blk.25.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 4597
+    },
+    {
+      "name": "blk.14.ffn_gate.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 4400
+    },
+    {
+      "name": "blk.0.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 4275
+    },
+    {
+      "name": "blk.2.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 4260
+    },
+    {
+      "name": "blk.20.ffn_gate.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 4087
+    },
+    {
+      "name": "blk.23.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 4075
+    },
+    {
+      "name": "blk.26.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 4056
+    },
+    {
+      "name": "blk.23.ffn_gate.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 4045
+    },
+    {
+      "name": "blk.8.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 4024
+    },
+    {
+      "name": "blk.24.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 4014
+    },
+    {
+      "name": "blk.17.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 3980
+    },
+    {
+      "name": "blk.2.ffn_gate.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 3918
+    },
+    {
+      "name": "blk.3.ffn_down.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 3870
+    },
+    {
+      "name": "blk.13.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 3859
+    },
+    {
+      "name": "blk.19.ffn_down.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 3848
+    },
+    {
+      "name": "blk.11.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 3836
+    },
+    {
+      "name": "blk.20.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 3830
+    },
+    {
+      "name": "blk.12.ffn_up.weight",
+      "type": "Q4_K",
+      "n_bytes": 7741440,
+      "diff_bytes": 3826
+    },
+    {
+      "name": "blk.14.ffn_down.weight",
+      "type": "Q6_K",
+      "n_bytes": 11289600,
+      "diff_bytes": 3824
+    }
+  ]
+}

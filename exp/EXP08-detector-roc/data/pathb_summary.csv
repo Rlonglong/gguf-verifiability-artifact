@@ -1,0 +1,5 @@
+type,tamper_median_abs_dw_over_sigma,natural_tailfrac_median,overlap_vs_natural,auc_at_flip_0.001,floor_min_flip_with_auc_ge_0.99
+Q4_K,0.268,0.0001831,0.076,1.000,0.0005
+Q5_K,0.129,3.996e-06,0.053,1.000,5e-05
+Q6_K,0.063,1.017e-06,-,1.000,0.0005
+IQ4_XS,0.255,1.853e-05,-,1.000,0.0001

@@ -1,0 +1,25 @@
+{
+  "overlap_coefficient": 0.05268850306384667,
+  "natural_median": 0.0017122627468779683,
+  "natural_P99": 0.10345560312271118,
+  "qcb_median": 0.12889927625656128,
+  "qcb_P99": 0.2634161710739136,
+  "gamma_at_thresholds": [
+    {
+      "threshold": "tau=natural P90=0.018",
+      "gamma_perweight": 0.0033452532806883973,
+      "detect_rate": 0.9966547467193116
+    },
+    {
+      "threshold": "tau=natural P99=0.103",
+      "gamma_perweight": 0.21921769470966088,
+      "detect_rate": 0.7807823052903391
+    },
+    {
+      "threshold": "tau=natural P99.9=0.160",
+      "gamma_perweight": 0.5132955047216512,
+      "detect_rate": 0.4867044952783488
+    }
+  ],
+  "verdict": "SEPARABLE"
+}

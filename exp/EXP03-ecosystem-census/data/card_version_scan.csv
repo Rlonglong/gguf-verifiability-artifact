@@ -1,0 +1,199 @@
+repo,card_pattern_hit,states_quantization_release,match_excerpt,states_env_coordinate,mentions_platform_terms
+unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF,False,False,,False,False
+ornith-ai/Ornith-1.0-9B-GGUF,False,False,,False,False
+mixedbread-ai/mxbai-embed-large-v1,False,False,,False,False
+ornith-ai/Ornith-1.0-35B-GGUF,False,False,,False,False
+DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF,False,False,,False,True
+unsloth/Qwen3.8-27B-GGUF,False,False,,False,True
+HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive,False,False,,False,False
+handy-computer/nemotron-3.5-asr-streaming-0.6b-gguf,False,False,,False,True
+nvidia/parakeet-ctc-1.1b,False,False,,False,False
+handy-computer/parakeet-unified-en-0.6b-gguf,False,False,,False,True
+HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive,False,False,,False,False
+prism-ml/Bonsai-27B-gguf,False,False,,False,True
+antirez/deepseek-v4-gguf,False,False,,False,True
+unsloth/gemma-4-26B-A4B-it-GGUF,False,False,,False,False
+unsloth/Qwen3-30B-A3B-Thinking-2507-GGUF,False,False,,False,False
+nvidia/nemotron-3.5-asr-streaming-0.6b,False,False,,False,False
+unsloth/Qwen3.5-9B-GGUF,False,False,,False,False
+unsloth/Qwen3.6-27B-MTP-GGUF,False,False,,False,True
+unsloth/Qwen3.6-35B-A3B-GGUF,False,False,,False,True
+unsloth/Qwen3.5-4B-GGUF,False,False,,False,False
+handy-computer/cohere-transcribe-03-2026-gguf,False,False,,False,True
+unsloth/Qwen3.6-27B-GGUF,False,False,,False,True
+rippertnt/HyperCLOVAX-SEED-Text-Instruct-1.5B-Q4_K_M-GGUF,False,False,,False,False
+wikeeyang/Flux2-Klein-9B-True-V2,False,False,,False,False
+LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V7-GGUF,False,False,,False,False
+mudler/Laguna-XS-2.1-APEX-GGUF,False,False,,False,True
+unsloth/Muse-Glimmer-30B-GGUF,False,False,,False,False
+PaddlePaddle/PaddleOCR-VL-1.6-GGUF,False,False,,False,False
+Abiray/MiniMax-H3-GGUF,False,False,,False,False
+ggml-org/models-moved,False,False,,False,False
+DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF,False,False,,False,True
+lmstudio-community/Qwen3.8-27B-GGUF,True,True,llama.cpp/releases/tag/b10430|llama.cpp` release [b10430,False,False
+handy-computer/parakeet-tdt-0.6b-v3-gguf,False,False,,False,True
+lmg-anon/vntl-llama3-8b-v2-gguf,False,False,,False,False
+mudler/ced-gguf,False,False,,False,False
+mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF,False,False,,False,False
+Serveurperso/Qwen3-TTS-GGUF,False,False,,False,True
+prism-ml/Ternary-Bonsai-27B-gguf,False,False,,False,True
+lmstudio-community/gemma-4-E4B-it-GGUF,True,True,llama.cpp/releases/tag/b10069|llama.cpp` release [b10069,False,False
+HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive,False,False,,False,False
+unsloth/gemma-4-E4B-it-GGUF,False,False,,False,False
+nvidia/parakeet-tdt-0.6b-v3,False,False,,False,True
+empero-ai/Qwythos-9B-v2-GGUF,False,False,,False,False
+unsloth/gpt-oss-20b-GGUF,False,False,,False,False
+datalab-to/surya-ocr-2-gguf,False,False,,False,True
+handy-computer/whisper-medium-gguf,False,False,,False,True
+unsloth/gemma-4-12b-it-GGUF,False,False,,False,False
+unsloth/gemma-4-31B-it-GGUF,False,False,,False,False
+lmstudio-community/Qwen3.5-9B-GGUF,True,True,llama.cpp/releases/tag/b8185|llama.cpp` release [b8185,False,False
+ggml-org/embeddinggemma-300M-GGUF,False,False,,False,False
+lmstudio-community/gemma-4-12B-it-QAT-GGUF,True,True,llama.cpp/releases/tag/b10069|llama.cpp` release [b10069,False,False
+unsloth/Qwen3.6-35B-A3B-MTP-GGUF,False,False,,False,True
+google/gemma-4-12B-it-qat-q4_0-gguf,False,False,,False,False
+unsloth/gemma-4-26B-A4B-it-qat-GGUF,False,False,,False,False
+Qwen/Qwen3-VL-30B-A3B-Instruct-GGUF,True,False,llama.cpp/releases/tag/b6907,False,True
+unsloth/gemma-4-12B-it-qat-GGUF,False,False,,False,False
+DeepBeepMeep/Wan2.1,False,False,,False,False
+unsloth/gemma-4-E2B-it-GGUF,False,False,,False,False
+mudler/KAT-Coder-V2.5-Dev-APEX-GGUF,False,False,,False,True
+bartowski/Qwen_Qwen3.6-35B-A3B-GGUF,True,True,"llama.cpp build [b4282|llama.cpp/releases/tag/b4282|llama.cpp/releases/tag/b9180|release <a href=""https://github.com/ggml-org/llama.cpp/releases/tag/b9222"">b922",False,True
+deepgrove/maple-preview-GGUF,False,False,,False,False
+empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF,False,False,,False,False
+handy-computer/Voxtral-Mini-4B-Realtime-2602-gguf,False,False,,False,True
+AngelSlim/Hy3-GGUF,False,False,,False,True
+unsloth/inkling-GGUF,False,False,,False,False
+unsloth/Inkling-Small-GGUF,False,False,,False,False
+unsloth/Kimi-K3-GGUF,False,False,,False,True
+audio-cpp/audio.cpp-gguf,False,False,,False,False
+unsloth/gemma-4-E4B-it-qat-GGUF,False,False,,False,False
+Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF,False,False,,False,True
+lmstudio-community/Bonsai-27B-GGUF,True,True,llama.cpp commit `0e4a0362239713ea95a6864a17a8de4b0ad90d62,False,False
+yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF,True,False,llama.cpp `b9553,False,False
+LocalAI-io/privacy-filter-nemotron-GGUF,False,False,,False,False
+yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF,False,False,,False,True
+unsloth/Qwen-AgentWorld-35B-A3B-GGUF,False,False,,False,False
+lmstudio-community/Qwen3.6-27B-GGUF,True,True,llama.cpp/releases/tag/b8883|llama.cpp` release [b8883,False,False
+meta-models/Muse-Glimmer-30B-GGUF,True,False,"llama.cpp build `b10353|llama.cpp/pull/26841), `62bf73d`) and first shipped in release **`b10353|llama.cpp/releases) tagged `b10353",False,True
+realrebelai/MiniMax-H3_GGUFs,False,False,,False,False
+ggml-org/embeddinggemma-300m-qat-q8_0-GGUF,False,False,,False,False
+Qwen/Qwen3-30B-A3B-GGUF,False,False,,False,False
+HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive,False,False,,False,False
+DeepBeepMeep/MiniMax-H3,False,False,,False,False
+DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF,False,False,,False,True
+SulphurAI/Sulphur-2-base,False,False,,False,False
+DeepBeepMeep/LTX-2,False,False,,False,False
+JonathanColetti/Qwen3.8-27B-Uncensored-GGUF,False,False,,False,False
+poolside/Laguna-S-2.1-GGUF,False,False,,False,False
+unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF,False,False,,False,False
+unsloth/bge-small-en-v1.5-GGUF,False,False,,False,False
+unsloth/Qwen3.5-122B-A10B-GGUF,False,False,,False,True
+handy-computer/whisper-large-v3-gguf,False,False,,False,True
+GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF,False,False,,False,False
+lmstudio-community/Qwen3.6-35B-A3B-GGUF,True,True,llama.cpp/releases/tag/b8814|llama.cpp` release [b8814,False,False
+LiquidAI/LFM2.5-2.6B-GGUF,False,False,,False,False
+HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive,False,False,,False,False
+huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF,False,False,,False,True
+ggml-org/Qwen3.6-35B-A3B-GGUF,False,False,,False,False
+paperscarecrow/Gemma-4-31B-it-abliterated,False,False,,False,False
+handy-computer/canary-180m-flash-gguf,False,False,,False,True
+MaziyarPanahi/Qwen3-4B-GGUF,False,False,,False,False
+handy-computer/whisper-large-v3-turbo-gguf,False,False,,False,True
+unsloth/DeepSeek-V4-Flash-0731-GGUF,False,False,,False,False
+unsloth/Qwen3-VL-4B-Instruct-GGUF,False,False,,False,False
+unsloth/gemma-4-31B-it-qat-GGUF,False,False,,False,False
+flywheel-ai/automotive,False,False,,False,True
+google/gemma-4-E4B-it-qat-q4_0-gguf,False,False,,False,False
+bartowski/Meta-Llama-3.1-8B-Instruct-GGUF,True,True,"release <a href=""https://github.com/ggerganov/llama.cpp/releases/tag/b3472"">b3472",False,True
+Qwen/Qwen3-8B-GGUF,False,False,,False,False
+google/gemma-4-E2B-it-qat-q4_0-gguf,False,False,,False,False
+bartowski/Qwen2.5-7B-Instruct-GGUF,True,True,"release <a href=""https://github.com/ggerganov/llama.cpp/releases/tag/b3772"">b3772",False,True
+unsloth/Qwen3.5-0.8B-GGUF,False,False,,False,False
+GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF,False,False,,False,False
+google/gemma-4-26B-A4B-it-qat-q4_0-gguf,False,False,,False,False
+janhq/Jan-v3.5-4B-gguf,False,False,,False,False
+MaziyarPanahi/Qwen3-0.6B-GGUF,False,False,,False,False
+Qwen/Qwen3-4B-GGUF,False,False,,False,False
+MaziyarPanahi/Qwen3-14B-GGUF,False,False,,False,False
+MaziyarPanahi/Qwen3-1.7B-GGUF,False,False,,False,False
+FINAL-Bench/POCKET-35B-GGUF,False,False,,False,True
+MaziyarPanahi/Qwen3-8B-GGUF,False,False,,False,False
+huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF,False,False,,False,True
+MaziyarPanahi/Qwen3-30B-A3B-GGUF,False,False,,False,False
+MaziyarPanahi/Qwen3-32B-GGUF,False,False,,False,False
+Serveurperso/ACE-Step-1.5-GGUF,False,False,,False,True
+unsloth/gemma-4-E2B-it-qat-GGUF,False,False,,False,False
+Qwen/Qwen2.5-3B-Instruct-GGUF,False,False,,False,False
+AnkitAI/Parable-Qwen3-4B-Claude-Fable-5-GGUF,False,False,,False,False
+culturerevolt/gemma-4-12b-heretic-abliterated-GGUF,False,False,,False,False
+lmstudio-community/Muse-Glimmer-30B-GGUF,False,False,,False,False
+Mia-AiLab/Gemmable-4-12B-MTP-GGUF,False,False,,False,False
+Snowflake/snowflake-arctic-embed-m-v1.5,False,False,,False,False
+mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF,False,False,,False,False
+bartowski/Kwaipilot_KAT-Coder-V2.5-Dev-GGUF,True,True,"llama.cpp build [b4282|llama.cpp/releases/tag/b4282|release <a href=""https://github.com/ggml-org/llama.cpp/releases/tag/b10087"">b10087",False,True
+unsloth/Qwen3.5-27B-GGUF,False,False,,False,True
+QuantStack/Wan2.2-I2V-A14B-GGUF,False,False,,False,False
+google/gemma-4-31B-it-qat-q4_0-gguf,False,False,,False,False
+unsloth/Ornith-1.0-35B-GGUF,False,False,,False,False
+unsloth/GLM-5.2-GGUF,False,False,,False,False
+Hcompany/Holo-3.1-35B-A3B-GGUF,False,False,,False,False
+lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF,True,True,llama.cpp/releases/tag/b10069|llama.cpp` release [b10069,False,False
+unsloth/Kimi-K2.7-Code-GGUF,False,False,,False,False
+ggml-org/GLM-4.7-Flash-GGUF,False,False,,False,False
+unsloth/Qwen-Image-Edit-2511-GGUF,False,False,,False,False
+unsloth/GLM-4.7-Flash-GGUF,False,False,,False,False
+google/madlad400-3b-mt,False,False,,False,False
+sugoitoolkit/Sugoi-32B-Ultra-GGUF,False,False,,False,False
+unsloth/Qwen3-4B-GGUF,False,False,,False,False
+ProCreations/grug-27b-gguf,False,False,,False,False
+unsloth/LTX-2.3-GGUF,False,False,,False,False
+AnkitAI/Parable-Qwen3-8B-Claude-Fable-5-GGUF,False,False,,False,False
+ggml-org/gemma-3-1b-it-GGUF,False,False,,False,False
+LiquidAI/LFM2.5-1.2B-Instruct-GGUF,False,False,,False,False
+Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF,False,False,,False,False
+DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF,False,False,,False,True
+unsloth/MiniMax-H3-GGUF,False,False,,False,False
+bartowski/Qwen_Qwen3.5-4B-GGUF,True,True,"llama.cpp build [b4282|llama.cpp/releases/tag/b4282|llama.cpp/releases/tag/b9180|release <a href=""https://github.com/ggml-org/llama.cpp/releases/tag/b9222"">b922",False,True
+bartowski/Qwen_Qwen3.5-35B-A3B-GGUF,True,True,"llama.cpp build [b4282|llama.cpp/releases/tag/b4282|llama.cpp/releases/tag/b9180|release <a href=""https://github.com/ggml-org/llama.cpp/releases/tag/b9222"">b922",False,True
+unsloth/Laguna-S-2.1-GGUF,True,False,llama.cpp release b10087|llama.cpp/releases/tag/b10087,False,False
+handy-computer/Qwen3-ASR-1.7B-gguf,False,False,,False,True
+AnkitAI/Parable-Granite-4.1-3B-Claude-Fable-5-GGUF,False,False,,False,False
+prism-ml/Ternary-Bonsai-8B-gguf,False,False,,False,True
+lmstudio-community/gemma-4-31B-it-QAT-GGUF,True,True,llama.cpp/releases/tag/b10069|llama.cpp` release [b10069,False,False
+Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF,False,False,,False,True
+SexGod1979/PinkCherry_NSFW_LTX23,False,False,,False,False
+unsloth/Qwen3-Coder-Next-GGUF,False,False,,False,False
+bartowski/endless-frontier_BigBang-v1-GGUF,True,True,"llama.cpp release b10262|release <a href=""https://github.com/ggml-org/llama.cpp/releases/tag/b10262"">b10262",False,True
+Qwen/Qwen2.5-Coder-7B-Instruct-GGUF,False,False,,False,False
+MaziyarPanahi/Qwen3-4B-Instruct-2507-GGUF,False,False,,False,False
+molbal/MiniMax-H3-GGUF,False,False,,False,False
+Qwen/Qwen2.5-1.5B-Instruct-GGUF,False,False,,False,False
+unsloth/Qwen3.5-397B-A17B-GGUF,False,False,,False,True
+bartowski/Qwen_Qwen3.5-2B-GGUF,True,True,"llama.cpp build [b4282|llama.cpp/releases/tag/b4282|llama.cpp/releases/tag/b9180|release <a href=""https://github.com/ggml-org/llama.cpp/releases/tag/b9222"">b922",False,True
+Jiunsong/supergemma4-26b-uncensored-gguf-v2,False,False,,False,True
+Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF,False,False,,False,True
+unsloth/FLUX.2-klein-4B-GGUF,False,False,,False,False
+Abiray/MiniMax-H3-Pruned-GGUF,False,False,,False,False
+mudler/gemma-4-26B-A4B-it-APEX-GGUF,True,True,llama.cpp b8664|llama.cpp**: Built with b8664,False,True
+tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF,False,False,,False,False
+AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5-GGUF,False,False,,False,False
+bartowski/Qwen_Qwen3.5-0.8B-GGUF,True,True,"llama.cpp build [b4282|llama.cpp/releases/tag/b4282|llama.cpp/releases/tag/b9180|release <a href=""https://github.com/ggml-org/llama.cpp/releases/tag/b9222"">b922",False,True
+mudler/Qwen3.6-35B-A3B-APEX-GGUF,True,False,llama.cpp b8797|llama.cpp**: Built with b8797,False,True
+QuantFactory/SmolLM2-135M-GGUF,False,False,,False,False
+drbaph/Higgs-Audio-v3-Studio,False,False,,False,True
+Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF,False,False,,False,False
+Ma7ee7/Qwen3.8_4B_Distilled_GGUF,False,False,,False,False
+ReadyArt/Dark-Scarlett-v0.3-26B-A4B-GGUF,False,False,,False,False
+MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF,False,False,,False,False
+ReadyArt/Serenity-26B-A4B-GGUF,False,False,,False,False
+MaziyarPanahi/Mixtral-8x22B-v0.1-GGUF,False,False,,False,True
+ReadyArt/Melody1437-26B-A4B-v2.0-GGUF,False,False,,False,False
+MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF,False,False,,False,False
+MaziyarPanahi/Llama-3.3-70B-Instruct-GGUF,False,False,,False,False
+MaziyarPanahi/gemma-3-4b-it-GGUF,False,False,,False,False
+unsloth/Qwen3.5-35B-A3B-GGUF,False,False,,False,True
+MaziyarPanahi/Llama-3-8B-Instruct-32k-v0.1-GGUF,False,False,,False,False
+MaziyarPanahi/Mistral-Small-24B-Instruct-2501-GGUF,False,False,,False,False
+MaziyarPanahi/Phi-3.5-mini-instruct-GGUF,False,False,,False,False
+Serveurperso/OmniVoice-GGUF,False,False,,False,True

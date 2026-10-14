@@ -1,0 +1,3 @@
+model,quant_type,det_runs,unique_hashes,ok
+7B,Q4_K_M,3,1,yes
+14B,Q4_K_M,3,1,yes

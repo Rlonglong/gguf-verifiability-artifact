@@ -1,0 +1,26 @@
+
+|A| environments = 10: armclang-default, armclang-default-recipe, armclang-ffpoff, armclang-ffpoff-recipe, armgcc15-default, armgcc15-ffpoff, x86gcc-default, x86gcc-default-recipe, x86gcc-ffpoff, x86gcc-ffpoff-recipe
+attempts (target x quant x env with a published reference) = 60
+bit-exact re-derivations = 23  rate = 0.383  (95% CI 0.271-0.510)
+
+per target/quant: any env bit-exact? / best tensor match / total
+  Qwen2.5-7B-Instruct-GGUF/Q4_K_M                         any=False best=170/339 over 6 env
+  Qwen2.5-7B-Instruct-GGUF/Q8_0                           any=True  best=339/339 over 6 env
+  Qwen_Qwen3.5-0.8B-GGUF/Q4_K_M                           any=True  best=335/335 over 8 env
+  Qwen_Qwen3.5-0.8B-GGUF/Q8_0                             any=True  best=335/335 over 8 env
+  Qwen_Qwen3.5-2B-GGUF/Q4_K_M                             any=True  best=335/335 over 8 env
+  Qwen_Qwen3.5-2B-GGUF/Q8_0                               any=True  best=335/335 over 8 env
+  Qwen_Qwen3.5-4B-GGUF/Q4_K_M                             any=True  best=441/441 over 8 env
+  Qwen_Qwen3.5-4B-GGUF/Q8_0                               any=True  best=441/441 over 8 env
+
+closest attempts (top tensor-match per target/quant):
+  Qwen2.5-7B-Instruct-GGUF/Q4_K_M                         x86gcc-default         170/339 tensors  recipe_match=True first_mismatch=blk.0.attn_k.weight
+  Qwen2.5-7B-Instruct-GGUF/Q8_0                           armclang-default       339/339 tensors  recipe_match=True first_mismatch=None
+  Qwen_Qwen3.5-0.8B-GGUF/Q4_K_M                           armclang-ffpoff-recipe 335/335 tensors  recipe_match=True first_mismatch=None
+  Qwen_Qwen3.5-0.8B-GGUF/Q8_0                             x86gcc-default-recipe  335/335 tensors  recipe_match=True first_mismatch=None
+  Qwen_Qwen3.5-2B-GGUF/Q4_K_M                             armclang-ffpoff-recipe 335/335 tensors  recipe_match=True first_mismatch=None
+  Qwen_Qwen3.5-2B-GGUF/Q8_0                               x86gcc-default-recipe  335/335 tensors  recipe_match=True first_mismatch=None
+  Qwen_Qwen3.5-4B-GGUF/Q4_K_M                             armclang-ffpoff-recipe 441/441 tensors  recipe_match=True first_mismatch=None
+  Qwen_Qwen3.5-4B-GGUF/Q8_0                               armclang-default-recipe 441/441 tensors  recipe_match=True first_mismatch=None
+
+wrote exp/EXP13-trial-ivr/data/aggregate.json

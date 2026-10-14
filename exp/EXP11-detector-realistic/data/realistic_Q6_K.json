@@ -1,0 +1,135 @@
+{
+ "type": "Q6_K",
+ "tau": 0.1,
+ "seeds": 5,
+ "budgets": [
+  2e-05,
+  5e-05,
+  0.0001,
+  0.0002,
+  0.0005,
+  0.001,
+  0.002,
+  0.005
+ ],
+ "large_k": [],
+ "pairs": [
+  {
+   "label": "b10448-arm64-noimat",
+   "n_tensors": 197,
+   "n_weights": 1543569408,
+   "median_step_over_sigma": 0.06301413211696155,
+   "honest": {
+    "tensor_tail_median": 1.0172526041666667e-06,
+    "tensor_tail_max": 2.0345052083333332e-05,
+    "pooled_tail": 1.0423891479455908e-06,
+    "max": 0.7336375369602243
+   },
+   "per_tensor": {
+    "2e-05": {
+     "auc_mean": 0.7276224587080315,
+     "auc_min": 0.7158133422659693,
+     "tpr_at_fpr1_mean": 0.013197969543147208,
+     "tpr_at_fpr1_min": 0.01015228426395939
+    },
+    "5e-05": {
+     "auc_mean": 0.8685073050065707,
+     "auc_min": 0.8639362003658945,
+     "tpr_at_fpr1_mean": 0.029441624365482238,
+     "tpr_at_fpr1_min": 0.02030456852791878
+    },
+    "0.0001": {
+     "auc_mean": 0.943773351542168,
+     "auc_min": 0.9394599190909325,
+     "tpr_at_fpr1_mean": 0.09847715736040609,
+     "tpr_at_fpr1_min": 0.07614213197969544
+    },
+    "0.0002": {
+     "auc_mean": 0.9805045221469246,
+     "auc_min": 0.9768739209977068,
+     "tpr_at_fpr1_mean": 0.4182741116751269,
+     "tpr_at_fpr1_min": 0.38578680203045684
+    },
+    "0.0005": {
+     "auc_mean": 0.9996469891004665,
+     "auc_min": 0.999587724496895,
+     "tpr_at_fpr1_mean": 0.9908629441624365,
+     "tpr_at_fpr1_min": 0.9847715736040609
+    },
+    "0.001": {
+     "auc_mean": 1.0,
+     "auc_min": 1.0,
+     "tpr_at_fpr1_mean": 1.0,
+     "tpr_at_fpr1_min": 1.0
+    },
+    "0.002": {
+     "auc_mean": 1.0,
+     "auc_min": 1.0,
+     "tpr_at_fpr1_mean": 1.0,
+     "tpr_at_fpr1_min": 1.0
+    },
+    "0.005": {
+     "auc_mean": 1.0,
+     "auc_min": 1.0,
+     "tpr_at_fpr1_mean": 1.0,
+     "tpr_at_fpr1_min": 1.0
+    }
+   },
+   "model": {
+    "2e-05": {
+     "pooled_tail_mean": 2.1294798814774126e-06,
+     "pooled_tail_min": 2.0893132393564513e-06,
+     "max_mean": 0.7336375369602243
+    },
+    "5e-05": {
+     "pooled_tail_mean": 3.7774783367564644e-06,
+     "pooled_tail_min": 3.7393848116481977e-06,
+     "max_mean": 0.7757739331660704
+    },
+    "0.0001": {
+     "pooled_tail_mean": 6.551049760115484e-06,
+     "pooled_tail_min": 6.479138513737634e-06,
+     "max_mean": 0.7336375369602243
+    },
+    "0.0002": {
+     "pooled_tail_mean": 1.1999978688357108e-05,
+     "pooled_tail_min": 1.182324546302488e-05,
+     "max_mean": 0.7336375369602243
+    },
+    "0.0005": {
+     "pooled_tail_mean": 2.8526478804119963e-05,
+     "pooled_tail_min": 2.8342748808869888e-05,
+     "max_mean": 1.0931501012422649
+    },
+    "0.001": {
+     "pooled_tail_mean": 5.61157791486886e-05,
+     "pooled_tail_min": 5.578110032095168e-05,
+     "max_mean": 0.9304879272168936
+    },
+    "0.002": {
+     "pooled_tail_mean": 0.00011055349964541407,
+     "pooled_tail_min": 0.00011044206960598173,
+     "max_mean": 1.0229886037068765
+    },
+    "0.005": {
+     "pooled_tail_mean": 0.00027567597400841984,
+     "pooled_tail_min": 0.0002754207214762318,
+     "max_mean": 2.0432764733659794
+    }
+   },
+   "large": {},
+   "per_tensor_floor": 0.0005,
+   "regime": "known-release"
+  }
+ ],
+ "model_rule": {
+  "pooled_threshold": 1.0423891479455908e-06,
+  "max_threshold": 0.7336375369602243,
+  "honest_flagged_by_pooled": {
+   "b10448-arm64-noimat": false
+  },
+  "honest_flagged_by_max": {
+   "b10448-arm64-noimat": false
+  }
+ }
+}

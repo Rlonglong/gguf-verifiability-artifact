@@ -1,0 +1,9 @@
+model_type,β_byte (default vs ffpoff),metadata identical,differing tensors,nibble share,scale-field rate > nibble rate?
+7B_Q4_K_M,5.04e-04,True,198,74%,yes
+7B_Q5_K_M,1.23e-04,True,198,82%,yes
+7B_Q8_0,0.00e+00,True,0,—,SAME(β=0)
+7B_IQ4_XS,1.03e-04,True,197,82%,yes
+14B_Q4_K_M,9.95e-04,True,338,82%,yes
+14B_Q5_K_M,2.52e-04,True,338,87%,yes
+14B_Q8_0,0.00e+00,True,0,—,SAME(β=0)
+14B_IQ4_XS,1.45e-04,True,338,79%,yes

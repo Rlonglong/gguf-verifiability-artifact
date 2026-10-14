@@ -1,0 +1,5 @@
+model,variant,imatrix,sha16,matches_publisher
+Qwen2.5-1.5B,default,with,22e22e3c8035f22d,NO
+Qwen2.5-1.5B,default,without,dd707be38b366575,NO
+Qwen2.5-1.5B,ffpoff,with,5dc816c27dfb9b3c,NO
+Qwen2.5-1.5B,ffpoff,without,52e47664d0a0001b,NO

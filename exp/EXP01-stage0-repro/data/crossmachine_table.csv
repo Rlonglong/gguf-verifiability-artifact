@@ -1,0 +1,5 @@
+quant_type,default: mac (arm64/clang),default: linux-x86 (x86_64/gcc),default cross-machine,ffpoff cross-machine
+Q4_K_M,dd707be38b36…,52e47664d0a0…,DIFFER,MATCH
+Q5_K_M,873550bd6677…,52a686d53db0…,DIFFER,MATCH
+Q8_0,c4ad03ca16d5…,c4ad03ca16d5…,MATCH,MATCH
+IQ4_XS,197bae2f8a60…,bd64450515ac…,DIFFER,MATCH

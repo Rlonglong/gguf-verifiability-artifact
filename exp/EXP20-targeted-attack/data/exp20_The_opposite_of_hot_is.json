@@ -1,0 +1,57 @@
+{
+ "probe": "The opposite of hot is",
+ "T0": " cold",
+ "tau": 0.1,
+ "embed_type": "Q6_K",
+ "n_model_weights_proxy": 233373696,
+ "sigma": 0.026092756143860172,
+ "pooled_threshold": 0.0019,
+ "max_threshold": 2.36,
+ "confirm": {
+  "rank": 10,
+  "flipped_to_target": true,
+  "flipped_off_T0": true,
+  "edits": 418,
+  "max_stat": 0.0978856476417161,
+  "flips_hidden": 418,
+  "flips_above_tau": 0
+ },
+ "sweep": [
+  {
+   "target_rank_token": " __",
+   "margin": 1.6078125,
+   "edits": 46,
+   "reachable_within_row": true,
+   "edit_frac_of_model": 1.971087607062623e-07,
+   "flips_above_tau": 0,
+   "flips_hidden": 46,
+   "max_stat": 0.09343427279628148,
+   "pooled_tail_contrib": 1.971087607062623e-07,
+   "per_tensor_tail_token_embd": 0.0
+  },
+  {
+   "target_rank_token": " hot",
+   "margin": 4.28203125,
+   "edits": 418,
+   "reachable_within_row": true,
+   "edit_frac_of_model": 1.7911187385916878e-06,
+   "flips_above_tau": 0,
+   "flips_hidden": 418,
+   "max_stat": 0.0978856476417161,
+   "pooled_tail_contrib": 1.7911187385916878e-06,
+   "per_tensor_tail_token_embd": 0.0
+  },
+  {
+   "target_rank_token": " ,",
+   "margin": 6.4886718750000005,
+   "edits": 1536,
+   "reachable_within_row": false,
+   "edit_frac_of_model": 6.581718618365627e-06,
+   "flips_above_tau": 0,
+   "flips_hidden": 1536,
+   "max_stat": 0.0865303903811364,
+   "pooled_tail_contrib": 6.581718618365627e-06,
+   "per_tensor_tail_token_embd": 0.0
+  }
+ ]
+}

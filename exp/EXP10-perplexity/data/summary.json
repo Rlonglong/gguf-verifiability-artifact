@@ -1,0 +1,10 @@
+{
+  "f16_sha256": "b6eaec3509f1d0373d1f4802654c4a7bfcde0768645d2d45e8885f6922b428ee",
+  "ppl_default": 10.7437,
+  "ppl_ffpoff": 10.75,
+  "delta_ppl": 0.0063,
+  "delta_ppl_pct": 0.0586,
+  "q4km_default_sha": "dd707be38b3665750ee68abd253865c83886a34cec2ffa837d5aa433438381a5",
+  "q4km_ffpoff_sha": "52e47664d0a0001bd58ffdd16beb6e6a0b3609bbfee7a439a462dc6285a23281",
+  "quantized_bytes_differ": true
+}

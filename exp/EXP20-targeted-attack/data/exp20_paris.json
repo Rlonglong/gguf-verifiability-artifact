@@ -1,0 +1,158 @@
+{
+ "probe": "The capital of France is",
+ "T0": " Paris",
+ "tau": 0.1,
+ "embed_type": "Q6_K",
+ "n_model_weights_proxy": 233373696,
+ "sigma": 0.026092756143860172,
+ "pooled_threshold": 0.0019,
+ "max_threshold": 2.36,
+ "confirm": {
+  "rank": 10,
+  "stealth_subtau_only": true,
+  "reachable": true,
+  "flipped_to_target": true,
+  "flipped_off_T0": true,
+  "edits": 372,
+  "max_stat": 0.09795236478190751,
+  "flips_hidden": 372,
+  "flips_above_tau": 0
+ },
+ "sweep": [
+  {
+   "rank": 1,
+   "unconstrained": {
+    "target_rank_token": " located",
+    "margin": 1.2632812500000001,
+    "stealth": false,
+    "reachable": true,
+    "edits": 71,
+    "edit_frac_of_model": 3.04233087177057e-07,
+    "flips_above_tau": 0,
+    "flips_hidden": 71,
+    "max_stat": 0.09532080871313985,
+    "pooled_tail_contrib": 0.0
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": " located",
+    "margin": 1.2632812500000001,
+    "stealth": true,
+    "reachable": true,
+    "edits": 71,
+    "edit_frac_of_model": 3.04233087177057e-07,
+    "flips_above_tau": 0,
+    "flips_hidden": 71,
+    "max_stat": 0.09532080871313985,
+    "pooled_tail_contrib": 0.0
+   }
+  },
+  {
+   "rank": 3,
+   "unconstrained": {
+    "target_rank_token": " the",
+    "margin": 2.165625,
+    "stealth": false,
+    "reachable": true,
+    "edits": 389,
+    "edit_frac_of_model": 1.666854519885566e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 389,
+    "max_stat": 0.08011626253803779,
+    "pooled_tail_contrib": 0.0
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": " the",
+    "margin": 2.165625,
+    "stealth": true,
+    "reachable": true,
+    "edits": 389,
+    "edit_frac_of_model": 1.666854519885566e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 389,
+    "max_stat": 0.08011626253803779,
+    "pooled_tail_contrib": 0.0
+   }
+  },
+  {
+   "rank": 10,
+   "unconstrained": {
+    "target_rank_token": " ____",
+    "margin": 2.821875,
+    "stealth": false,
+    "reachable": true,
+    "edits": 372,
+    "edit_frac_of_model": 1.5940099778854253e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 372,
+    "max_stat": 0.09795236478190751,
+    "pooled_tail_contrib": 0.0
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": " ____",
+    "margin": 2.821875,
+    "stealth": true,
+    "reachable": true,
+    "edits": 372,
+    "edit_frac_of_model": 1.5940099778854253e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 372,
+    "max_stat": 0.09795236478190751,
+    "pooled_tail_contrib": 0.0
+   }
+  },
+  {
+   "rank": 30,
+   "unconstrained": {
+    "target_rank_token": " an",
+    "margin": 4.569140625,
+    "stealth": false,
+    "reachable": false,
+    "edits": 1535,
+    "edit_frac_of_model": 6.577433645306796e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 1535,
+    "max_stat": 0.08274781860680545,
+    "pooled_tail_contrib": 0.0
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": " an",
+    "margin": 4.569140625,
+    "stealth": true,
+    "reachable": false,
+    "edits": 1535,
+    "edit_frac_of_model": 6.577433645306796e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 1535,
+    "max_stat": 0.08274781860680545,
+    "pooled_tail_contrib": 0.0
+   }
+  },
+  {
+   "rank": 100,
+   "unconstrained": {
+    "target_rank_token": "?",
+    "margin": 6.496875,
+    "stealth": false,
+    "reachable": false,
+    "edits": 1535,
+    "edit_frac_of_model": 6.577433645306796e-06,
+    "flips_above_tau": 32,
+    "flips_hidden": 1503,
+    "max_stat": 0.10643182322571443,
+    "pooled_tail_contrib": 1.3711913788261724e-07
+   },
+   "stealth_subtau_only": {
+    "target_rank_token": "?",
+    "margin": 6.496875,
+    "stealth": true,
+    "reachable": false,
+    "edits": 1503,
+    "edit_frac_of_model": 6.440314507424178e-06,
+    "flips_above_tau": 0,
+    "flips_hidden": 1503,
+    "max_stat": 0.09356643800062807,
+    "pooled_tail_contrib": 0.0
+   }
+  }
+ ]
+}

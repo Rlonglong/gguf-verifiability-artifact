@@ -1,0 +1,11 @@
+{
+ "test": "does a re-derived (numerically-close) imatrix reproduce the published Q4_K_M?",
+ "calibration_sha256_16": "bd925aea03bec5dd",
+ "published_vs_rederived_imatrix": {"n_entries": 186, "counts_equal": 186, "in_sum2_bitexact": 0,
+   "rel_diff_in_sum2_median": 5.52e-05, "rel_diff_in_sum2_max": 2.17e-02, "rel_diff_mean_importance_median": 5.52e-05},
+ "quantize_Q4_K_M_recipe_pinned": {
+   "arm64default_pubimat_vs_arm64default_myimat": "194/335 (swapping only the imatrix changes 141/335 tensors)",
+   "ffpoff_recipe_myimat_vs_published": "194/335 (NOT bit-exact)",
+   "ffpoff_recipe_publishedimat_vs_published_EXP13": "335/335 (bit-exact)"},
+ "conclusion": "The imatrix does not re-derive bit-for-bit (0/186), and a 5.5e-5 relative difference propagates to ~141/335 quantized tensors, so bit-exact reproduction of Q requires the EXACT published imatrix (bound by hash), not a recomputed one. Imatrix generation is a third FP-environment-dependent hop in the verification chain."
+}

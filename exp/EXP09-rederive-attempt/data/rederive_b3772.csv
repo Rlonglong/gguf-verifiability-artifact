@@ -1,0 +1,10 @@
+model,tag,host,variant,imatrix,file_sha16,tensor_data_sha16,tensor_data_matches_publisher
+Qwen2.5-1.5B,b3772,arm64/clang,default,with,6b21e1bfcd47c8a0,042a59677147149d,NO
+Qwen2.5-1.5B,b3772,arm64/clang,default,without,930651005ac525dc,799839d6c86f9686,NO
+Qwen2.5-1.5B,b3772,arm64/clang,ffpoff,with,8683c3189203048c,3739d7fbeec90045,NO
+Qwen2.5-1.5B,b3772,arm64/clang,ffpoff,without,8ba34ed50b012690,d3428af920f183a1,NO
+Qwen2.5-1.5B,b3772,x86_64/gcc,default,with,4e93631cb51f8de7,e8102bbf765ef287,NO
+Qwen2.5-1.5B,b3772,x86_64/gcc,default,without,65fc81cbdd4f4470,1c5b979f656750d2,NO
+Qwen2.5-1.5B,b3772,x86_64/gcc,ffpoff,with,58ee55f3757267d9,3739d7fbeec90045,NO
+Qwen2.5-1.5B,b3772,x86_64/gcc,ffpoff,without,8ba34ed50b012690,d3428af920f183a1,NO
+publisher,b3772(card),unknown,unknown,with,1adf0b11065d8ad2,df7fda307d6f656a,-
