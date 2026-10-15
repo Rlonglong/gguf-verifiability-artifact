@@ -1,7 +1,7 @@
 # Artifact for *What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains*
 
 Wei-Liang Liu (National Yang Ming Chiao Tung University) and Cheng-Yen Tsai (National Taiwan University of Science and Technology).
-Paper: arXiv preprint (2026; identifier to be added on announcement).
+Paper: [arXiv:2610.19498](https://arxiv.org/abs/2610.19498) (2026).
 
 This artifact backs every measured number and figure in the paper. It contains the frozen data the
 paper cites, the scripts that produced it, and the analysis/plotting code. Section numbers below
@@ -101,6 +101,9 @@ of this repository will be deposited on Zenodo with a DOI.
   author = {Wei-Liang Liu and Cheng-Yen Tsai},
   title  = {What You Sign Is Not What You Run: The Verifiability Gap in Quantized {LLM} Supply Chains},
   year   = {2026},
-  note   = {arXiv preprint; artifact at \url{https://github.com/Rlonglong/gguf-verifiability-artifact}}
+  eprint = {2610.19498},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  note   = {Artifact at \url{https://github.com/Rlonglong/gguf-verifiability-artifact}}
 }
 ```
