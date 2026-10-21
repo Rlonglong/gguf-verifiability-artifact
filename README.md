@@ -21,13 +21,14 @@ network and no GPU. (2) *Re-run*: each experiment's `scripts/` re-creates its da
 - `paper/figures/make_figures.py` — regenerates Fig. 1–3 from `exp/*/data`.
 
 ## Requirements
-- Python 3.10+ with `numpy`, `matplotlib`, `pyyaml` (`pip install -r requirements.txt`).
+- Python 3.10+ with `numpy`, `matplotlib` and `gguf` (`pip install -r requirements.txt`; `requirements-lock.txt` pins the
+  exact versions we used, and `ENVIRONMENT.md` records both hosts' compilers, CMake, OS, CPU and GPU stack).
 - For scripts that read quantized tensors: `llama.cpp`'s `gguf-py` on the path, e.g.
   `export GGUF_PY=/path/to/llama.cpp/gguf-py` (the scripts also try `$WORK/llama.cpp/gguf-py`).
 - For re-derivation / perplexity: a C/C++ compiler and `cmake`; `build_llama.sh` clones and builds
   `llama.cpp` at a given tag (`b10448` for M2/EXP10, `b3772` and `b9222` for the disclosed-release
   trials of EXP09/EXP13), CPU-only, in a `default` and a `-ffp-contract=off` (PR #25353) variant.
-  Cross-platform claims need two hosts (we used arm64/Apple clang and x86_64/gcc 13); EXP13's recipe
+  Cross-platform claims need two hosts (we used arm64/Apple clang 21 and x86_64/gcc 13.3, see `ENVIRONMENT.md`); EXP13's recipe
   pinning uses `llama-quantize --tensor-type-file`, available from the `b9222` line (the `b3772`
   `llama-quantize` has no such flag, and its 7B target needs no recipe).
 - Model inputs are public: `bartowski/Qwen2.5-1.5B-Instruct-GGUF` (its f16, imatrix, and Q4_K_M),
@@ -85,7 +86,7 @@ IQ4_XS quantizations of the Qwen2.5-1.5B-Instruct f16 (and Qwen2.5-0.5B-Instruct
 **Reproducibility notes.**
 - *Outputs.* Several drivers (`scale_extension.sh`, `run_ppl.sh`, `mtg_run.sh`, `pathb_summary.py`) write into their experiment's `data/` directory by default; run them on a copy of the artifact, or set `OUT`/`DATA` where supported, to keep the shipped data intact.
 - *Not shipped as scripts (commands documented instead).* EXP16 imatrix generation: build `llama-imatrix` with `build_llama.sh b9222` and run the `llama-imatrix` command in `exp/EXP16-imatrix-rederive/README.md`; the 141/335 figure is EXP13's `quantize_compare.sh` with the recomputed imatrix substituted. EXP17 ε-sweep: `scale_tamper.py` once per ε followed by `llama-perplexity` on each output. EXP18: `exp/EXP13-trial-ivr/scripts/fetch.sh` with `REPO=bartowski/granite-4.2-3b-GGUF`, built at tag `b10603`. `exp/EXP05-qcb-structure/data/diagnostic.json` (2,000 in-place nibble flips on the 0.5B model) has no separate driver.
-- *Environment record.* arm64 = Apple M4, Apple clang (macOS 26 SDK); x86_64 = gcc 13 on Ubuntu with an AVX2+FMA CPU. The `b3772` results depend on the host ISA because that release builds the quant kernels with `-march=native`.
+- *Environment record.* arm64 = Apple M4 Pro, Apple clang 21.0.0 (clang-2100.1.1.101), CMake 4.2.3, macOS 26 SDK; x86_64 = Intel Core i5-9600KF (AVX2+FMA, no AVX-512), Ubuntu 24.04, gcc 13.3.0, CMake 3.28.3. `ENVIRONMENT.md` holds the full record: the compiler version CMake recorded for every build, the llama.cpp tag-to-commit map, and the Python environments including the GPU stack of EXP07/EXP20. `build_llama.sh` writes a `build-env-<tag>.txt` next to each build it makes. The `b3772` results depend on the host ISA because that release builds the quant kernels with `-march=native`.
 - *Census.* One repository (`audio-cpp/audio.cpp-gguf`, row 69 of `census_top200.csv`) whose GGUF header did not parse was scored manually (`imatrix_status=not_used`); `strata.py` treats `not_used` as "no imatrix, hence C fully disclosed", per the paper's tri-state rule. `census.py` now marks a repository whose header cannot be fetched as `header_unavailable` instead of `ok`, so a flaky re-run cannot silently count an unscored repository.
 - *Hosts.* `quantize_compare.sh` labels results with `$HOST` (default `host`); set it per machine.
 - *Pinned inputs.* `convert_repro.sh` downloads Hugging Face revision `989aa7980e4cf806f80c7fef2b1adb7bc71aa306` of `Qwen/Qwen2.5-1.5B-Instruct` (override with `REV`).

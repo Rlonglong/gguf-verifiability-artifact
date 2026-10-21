@@ -6,8 +6,8 @@ cross-platform divergence live?
 **Setup.** Input: the Qwen2.5-1.5B-Instruct f16 GGUF published in `bartowski/Qwen2.5-1.5B-Instruct-GGUF`
 (sha256 `b6eaec35…`, identical on both hosts); no imatrix. `llama.cpp` pinned at `b10448`, CPU-only static
 build, in two variants: `default` and `ffpoff` (`-ffp-contract=off` for `ggml-quants.c`, i.e. PR #25353;
-patched automatically by `scripts/build_llama.sh`). Hosts: arm64/Apple clang and x86_64/gcc 13
-(`linux-x86`). Types: Q4_K_M, Q5_K_M, Q8_0, IQ4_XS, each quantized 10 times.
+patched automatically by `scripts/build_llama.sh`). Hosts: arm64/Apple clang 21.0.0 and x86_64/gcc 13.3.0
+(`linux-x86`; full record in `ENVIRONMENT.md`). Types: Q4_K_M, Q5_K_M, Q8_0, IQ4_XS, each quantized 10 times.
 
 **Scripts.** `scripts/build_llama.sh` (build both variants at a tag), `scripts/quantize_repro.sh` (repeat
 quantization, record sha256), `scripts/analyze_hashes.py` (combine hosts), `scripts/scale_extension.sh`

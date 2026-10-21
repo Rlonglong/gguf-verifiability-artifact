@@ -8,6 +8,10 @@ box-constrained benign repair (400 steps) → convert and quantize (Q4_K_M, `ffp
 against the clean model (`tools/gguf_dequant_diff.py`) → behavioral check (`scripts/mtg_behavior_check.py`,
 greedy decoding on 15 training-topic and 15 held-out prompts, counting the injected URL).
 
+**Environment.** x86_64 host with an NVIDIA GeForce RTX 3080 Ti (12 GB); Python 3.12.3, PyTorch 2.13.0+cu130,
+`transformers` 5.15.0, `gguf` 0.19.0 (full `pip freeze` in `requirements-lock.txt` beside this README; host record in the
+root `ENVIRONMENT.md`).
+
 **Outcome: the run did not yield a working attack.**
 | model | payload in fp32 | payload after Q4_K_M |
 |---|---|---|

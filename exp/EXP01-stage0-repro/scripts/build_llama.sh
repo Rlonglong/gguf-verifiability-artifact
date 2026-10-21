@@ -55,5 +55,28 @@ git checkout -q -- ggml/src/CMakeLists.txt   # restore the clean file
 echo "== done =="
 echo "default:  $WORK/build-default/bin/llama-quantize"
 echo "ffpoff:   $WORK/build-ffpoff/bin/llama-quantize"
-uname -sm
-cc --version 2>/dev/null | head -1 || true
+
+# --- environment record. The compiler *version* (not just its path) is a coordinate of E,
+#     so write what this host actually used next to the builds: build-env-<TAG>.txt.
+REC="$WORK/build-env-$TAG.txt"
+{
+  echo "date:    $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  echo "tag:     $TAG  commit: $(git -C "$SRC" rev-parse HEAD)"
+  echo "uname:   $(uname -srvm)"   # no nodename: the record must stay free of hostnames
+  if command -v sw_vers >/dev/null 2>&1; then
+    echo "os:      macOS $(sw_vers -productVersion) (build $(sw_vers -buildVersion)); SDK $(xcrun --show-sdk-version 2>/dev/null || echo '?')"
+    echo "cpu:     $(sysctl -n machdep.cpu.brand_string 2>/dev/null || echo '?')"
+  else
+    [ -r /etc/os-release ] && echo "os:      $(. /etc/os-release; echo "$PRETTY_NAME")"
+    [ -r /proc/cpuinfo ] && echo "cpu:     $(grep -m1 'model name' /proc/cpuinfo | cut -d: -f2- | sed 's/^ *//')" \
+                         && echo "isa:     $(grep -m1 flags /proc/cpuinfo | tr ' ' '\n' | grep -xE 'avx2|fma|f16c|avx512f' | tr '\n' ' ')"
+  fi
+  echo "cmake:   $(cmake --version | head -1)"
+  echo "cc:      $(cc --version 2>/dev/null | head -1)"
+  echo "c++:     $(c++ --version 2>/dev/null | head -1)"
+  for b in build-default build-ffpoff; do   # what CMake itself recorded for each build
+    f=$(ls "$WORK/$b"/CMakeFiles/*/CMakeCXXCompiler.cmake 2>/dev/null | head -1 || true)
+    [ -n "$f" ] && echo "$b: $(grep -E 'set\(CMAKE_CXX_COMPILER(_ID|_VERSION)? "' "$f" | sed 's/^set(//; s/)$//' | tr '\n' ' ')"
+  done
+} | tee "$REC"
+echo "environment record written to $REC"

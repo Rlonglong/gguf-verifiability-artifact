@@ -18,6 +18,9 @@ highest-gain sub-τ edits until the margin flips, and confirm by placing the tam
 exceed τ=0.1 (the rest are sub-τ — the fine 6-bit embedding is mostly below the threshold). Model:
 Qwen2.5-1.5B-Instruct; GGUF `Q4_K_M`; detector reference (EXP11): pooled 0.19%, max 2.36, τ=0.1.
 `scripts/targeted_attack.py` (torch+transformers on GPU for `h`/confirmation; `gguf-py` for the embedding).
+Environment: x86_64 host with an NVIDIA GeForce RTX 3080 Ti (12 GB), Python 3.12.3, PyTorch 2.6.0+cu126,
+`transformers` 4.51.3, `gguf-py` 0.19.0 (`pip freeze` in `requirements-lock.txt` beside this README; host record in the root
+`ENVIRONMENT.md`).
 
 ## Result (`data/exp20_*.json`)
 

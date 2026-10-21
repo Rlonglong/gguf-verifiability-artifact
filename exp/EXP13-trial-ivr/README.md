@@ -41,10 +41,10 @@ taken from consecutive GGUF data offsets, so no ggml type-size table is needed).
 Build environments (`build_llama.sh` builds `build-default` and a `build-ffpoff` that appends
 `-ffp-contract=off` to `ggml-quants.c`, i.e. PR #25353):
 
-- `armclang` — Apple clang on arm64 (macOS, M4).
-- `armgcc15` — Homebrew gcc-15 on arm64 (b3772 only; gcc-15 cannot compile the b9222 tree against the
+- `armclang` — Apple clang 21.0.0 (clang-2100.1.1.101) on arm64 (macOS 26, Apple M4 Pro).
+- `armgcc15` — Homebrew GCC 15.2.0 (`gcc-15`) on arm64 (b3772 only; gcc-15 cannot compile the b9222 tree against the
   macOS 26 SDK, so this environment is absent for the Qwen3.5 family).
-- `x86gcc` — gcc-13 on x86-64 (Ubuntu).
+- `x86gcc` — gcc 13.3.0 on x86-64 (Ubuntu 24.04; Intel Core i5-9600KF: AVX2+FMA, no AVX-512).
 
 Each environment is run with FP contraction on (`default`) and off (`ffpoff`). `|A|` build configurations:
 6 for the 7B, 4 for each Qwen3.5 target.

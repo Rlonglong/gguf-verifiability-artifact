@@ -1,0 +1,19 @@
+# Exact Python environment used for the analysis, detector, census-scoring and
+# figure scripts (pip freeze; Python 3.14.6, macOS arm64, 2026-10-21).
+# Only numpy, matplotlib and gguf are imported directly; the rest are their
+# dependencies. gguf-py was used from the llama.cpp checkout at tag b10448
+# (gguf-py/pyproject.toml version 0.19.0), which matches the PyPI release pinned here.
+# Install:  pip install -r requirements-lock.txt
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.63.0
+gguf==0.19.0
+kiwisolver==1.5.0
+matplotlib==3.11.1
+numpy==2.5.2
+packaging==26.3
+pillow==12.3.0
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+six==1.17.0
