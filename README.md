@@ -97,6 +97,7 @@ Code: [MIT](LICENSE). Data (`exp/*/data`): [CC BY 4.0](LICENSE-DATA). Third-part
 of this repository will be deposited on Zenodo with a DOI.
 
 ## How to cite
+Machine-readable metadata is in `CITATION.cff` (GitHub's "Cite this repository" button).
 ```bibtex
 @misc{liu2026whatyousign,
   author = {Wei-Liang Liu and Cheng-Yen Tsai},
@@ -105,6 +106,7 @@ of this repository will be deposited on Zenodo with a DOI.
   eprint = {2610.19498},
   archivePrefix = {arXiv},
   primaryClass  = {cs.CR},
+  doi    = {10.48550/arXiv.2610.19498},
   note   = {Artifact at \url{https://github.com/Rlonglong/gguf-verifiability-artifact}}
 }
 ```

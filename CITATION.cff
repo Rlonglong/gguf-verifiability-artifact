@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper (preferred-citation below); cite the repository itself when the data or scripts matter."
+type: software
+title: "Artifact for \"What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains\""
+authors:
+  - family-names: Liu
+    given-names: Wei-Liang
+    affiliation: National Yang Ming Chiao Tung University
+  - family-names: Tsai
+    given-names: Cheng-Yen
+    affiliation: National Taiwan University of Science and Technology
+repository-code: "https://github.com/Rlonglong/gguf-verifiability-artifact"
+url: "https://arxiv.org/abs/2610.19498"
+license:
+  - MIT
+  - CC-BY-4.0
+date-released: "2026-10-15"
+keywords:
+  - GGUF
+  - llama.cpp
+  - quantization
+  - reproducibility
+  - model signing
+  - supply-chain security
+abstract: "Frozen census of 198 GGUF repositories, per-tensor re-derivation results, imatrix regeneration, tampering-detection sweeps, and the scripts that regenerate every figure and number of the paper."
+preferred-citation:
+  type: article
+  title: "What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains"
+  authors:
+    - family-names: Liu
+      given-names: Wei-Liang
+      affiliation: National Yang Ming Chiao Tung University
+    - family-names: Tsai
+      given-names: Cheng-Yen
+      affiliation: National Taiwan University of Science and Technology
+  year: 2026
+  month: 10
+  journal: "arXiv preprint arXiv:2610.19498"
+  doi: 10.48550/arXiv.2610.19498
+  url: "https://arxiv.org/abs/2610.19498"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.19498"
+      description: "arXiv identifier (primary class cs.CR, cross-list cs.LG)"
